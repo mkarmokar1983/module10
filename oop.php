@@ -46,8 +46,10 @@ $book1 = new Book("The Great Gatsby", 5);
 $book2 = new Book("To Kill a Mockingbird", 3);
 
 // Output1 "Available Copies of 'Book Name': Quantity
+/*
 echo "Available Copies of " . "'{$book1->getTitle()}'" . ": {$book1->getAvailableCopies()}\n";
 echo "Available Copies of " . "'{$book2->getTitle()}'" . ": {$book2->getAvailableCopies()}\n";
+*/
 
 
 class Member
@@ -88,10 +90,10 @@ class Member
 
 $member1 = new Member("John Doe");
 $member2 = new Member("Jane Smith");
-
+/*
 echo "Name: " . "{$member1->getName()}" . "\n";
 echo "Name: " . "{$member2->getName()}" . "\n";
-
+*/
 
 $member1->borrowBook($book1);
 $member2->borrowBook($book2);
